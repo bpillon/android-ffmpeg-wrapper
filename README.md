@@ -9,5 +9,6 @@ Build
 
 0. Install git, Android ndk
 1. `$ export ANDROID_NDK=/path/to/your/android-ndk`
-2. `$ ./jni/FFmpeg-Android.sh`
-3. libencoding.so and libffmpeginvoke.so will be built to `build/ffmpeg/armv7/`
+2. `$ cd jni`
+3. `$ ./FFmpeg-Android.sh`
+4. libencoding.so and libffmpeginvoke.so will be built to `build/ffmpeg/armv7/`
